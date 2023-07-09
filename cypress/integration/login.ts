@@ -1,5 +1,6 @@
 import {LoginPage} from "./pages/login_pages"
 import {DashboardPage} from "./pages/dashboard_pages"
+import { add } from "cypress/types/lodash"
 
 let loginPage = new LoginPage()
 let dashboardPage = new DashboardPage()
